@@ -261,7 +261,52 @@ body{
     background:var(--violet);
   }
 
-
+  .price{
+    display: flex;
+    flex-wrap: wrap;
+    gap:1.5rem;
+  }
+  
+  .price .box{
+    flex:1 1 30rem;
+    text-align: center;
+    border:.1rem solid rgba(0,0,0,.1);
+    border-radius: .5rem;
+  }
+  
+  .price .box h3{
+    font-size: 2.5rem;
+    color:#333;
+    padding:1.5rem 0;
+  }
+  
+  .price .box .amount{
+    font-size: 4.5rem;
+    color:#fff;
+    padding:1rem 0;
+    background:var(--violet);
+    font-weight: bold;
+  }
+  
+  .price .box .amount span{
+    font-size: 2rem;
+  }
+  
+  .price .box  ul{
+    border-bottom: .1rem solid rgba(0,0,0,.1);
+    padding: 1rem 0;
+    list-style: none;
+  }
+  
+  .price .box ul li{
+    padding:.7rem 0;
+    font-size: 1.7rem;
+    color:#666;
+  }
+  
+  .price .box .btn{
+    margin:2rem 0;
+  }
 
 
 
